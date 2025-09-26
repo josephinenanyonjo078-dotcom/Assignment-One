@@ -691,7 +691,7 @@ Transform:
   m_GameObject: {fileID: 1141872382}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.40804, y: 0.64601, z: 3.2}
+  m_LocalPosition: {x: -2.38, y: 0.64601, z: 3.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -840,7 +840,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d4edbfb132e94b75a223f8304594351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CubeMove
-  speed: 5
+  moveSpeed: 5
+  spherePrefab: {fileID: 4200375887881888642, guid: eef52b0df2d834d6a81a1e9cac4bb4c6, type: 3}
+  spawnInterval: 0.2
+  sphereLifetime: 5
+  cameraTransform: {fileID: 330585546}
+  cameraOffset: {x: 0, y: 5, z: -7}
+  followSmoothness: 5
 --- !u!65 &1836116603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1053,7 +1059,7 @@ Transform:
   m_GameObject: {fileID: 1952389094}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.867, y: 0.5, z: 2.63}
+  m_LocalPosition: {x: 2.867, y: 0.8, z: 5.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1180,7 +1186,7 @@ Transform:
   m_GameObject: {fileID: 2034539456}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.27, y: 0.88, z: 0.78}
+  m_LocalPosition: {x: 5.17, y: 0.88, z: 0.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
