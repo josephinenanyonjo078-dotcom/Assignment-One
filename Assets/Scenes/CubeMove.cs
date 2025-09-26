@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CubeMove : MonoBehaviour
 {
-    public float speed = 5f; // Speed of movement
+    public float speed = 6f; // Speed of movement
 
     void Update()
     {
